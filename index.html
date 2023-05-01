@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+Projeto: Curriculum Vitae
+Licença: CC0-1.0-Universal
+Autor:   Thaynan Silva <thaynan.silva[at]outlook.com>
+
+NOTA: Este documento usa ícones 'Material Symbols' de Google Fonts,
+registrados sobre a licença Apache v2.0. Por favor, visite o link
+para mais informações: <https://fonts.google.com/icons>.
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Curriculum Vitae</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+  <div id="global">
+    <div id="profile">
+      <div>
+        <!-- 
+          Altere `src` para o caminho da sua foto ou
+          comente a tag <img> para removê-la.
+        -->
+        <img src="assets/images/img_profile.svg">
+        </img>
+        <h1>{nome}<br>{sobrenome}</h1>
+      </div>
+      <ul>
+        <li>
+          <img src="assets/material-symbols/icon_work.svg">
+          <span>{nome do curso}</span>
+        </li>
+        <hr>
+        <li>
+          <img src="assets/material-symbols/icon_birthdate.svg">
+          <span>{data de nascimento}</span>
+        </li>
+        <hr>
+        <li>
+          <img src="assets/material-symbols/icon_email.svg">
+          <span>{e-mail}</span>
+        </li>
+        <li>
+          <img src="assets/icons/icon_whatsapp.svg">
+          <span>{número de telefone}</span>
+        </li>
+        <li>
+          <img src="assets/material-symbols/icon_place.svg">
+          <span>{cidade} -- {UF}</span>
+        </li>
+        <li>
+          <img src="assets/icons/icon_instagram.svg">
+          <span>{seu @ instagram}</span>
+        </li>
+      </ul>
+    </div>
+    <div id="sections">
+      <div>
+        <h2>&#10070; Objetivo</h2>
+        <p>
+          {seu objetivo aqui}
+        </p>
+      </div>
+      <div>
+        <h2>&#10070; Experiência Profissional</h2>
+        <!--
+          Caso não tenha experiência profissional, remova a lista abaixo
+          e insira isso:  <span>&HorizontalLine;</span>
+        -->
+        <ul>
+          <li>{função/posição}</li>
+          <li>{nome/razão social da empresa}</li>
+          <li>({ano admissão} - {ano demissão})</li>
+        </ul>
+      </div>
+      <div>
+        <h2>&#10070; Formação Acadêmica</h2>
+        <ul>
+          <li>{nome do curso}</li>
+          <li><em>Graduando</em> &HorizontalLine; ({ano inicial} - presente)</li>
+          <li>{nome da instituição}</li>
+        </ul>
+        <ul>
+          <li>Ensino Médio</li>
+          <li><em>Formado</em> &HorizontalLine; ({ano inicial} - {ano final})</li>
+          <li>{nome do colégio}</li>
+        </ul>
+      </div>
+      <div>
+        <h2>&#10070; Cursos</h2>
+        <!--
+          Você pode copiar e colar a seção abaixo para inserir
+          múltiplos itens.
+          
+          NOTA: lembre-se de testar se o currículo caberá dentro de uma folha.
+        -->
+        <ul>
+          <!-- Exemplo de descrição do curso: "Inglês avançado" -->
+          <li>{descrição do curso}</li>
+          <!-- Estado do curso: cursando, formado -->
+          <li><em>{estado}</em> &HorizontalLine; ({duração do curso})</li>
+          <li>{nome da instituição}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
