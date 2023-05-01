@@ -5,7 +5,7 @@ home work.
 
 It is under public domain via the CC0-1.0-Universal license.
 
-<center>![Curriculum model screenshot](screenshots/screenshot-1.png)</center>
+<center>![Curriculum screenshot](screenshots/img-1.png)</center>
 
 ## How to print it or export to PDF?
 
@@ -28,5 +28,5 @@ In order to print with a web browser, please follow the steps below:
 Below is a list of the third-party resources, including a link
 to their license.
 
-- Material Icons from [Google Fonts](https://fonts.google.com/icons) -- License: [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+- Material Symbols from [Google Fonts](https://fonts.google.com/icons) -- License: [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 
