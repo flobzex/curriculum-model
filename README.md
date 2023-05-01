@@ -5,7 +5,7 @@ home work.
 
 It is under public domain via the CC0-1.0-Universal license.
 
-<center>![Curriculum screenshot](screenshots/img-1.png)</center>
+![Curriculum screenshot](./screenshots/img-1.png)
 
 ## How to print it or export to PDF?
 
